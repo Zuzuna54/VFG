@@ -1,0 +1,24 @@
+{
+  "name": "portfoliowebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zuzuna54/PortfolioWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zuzuna54/PortfolioWebsite/issues"
+  },
+  "homepage": "https://github.com/Zuzuna54/PortfolioWebsite#readme",
+  "keywords": [],
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
