@@ -4,6 +4,12 @@
   margin: auto;
   overflow: hidden;
 }
+.nav-container {
+  max-width: $website-width;
+
+  margin: auto;
+  overflow: hidden;
+}
 
 // Buttons
 %btn-shared {

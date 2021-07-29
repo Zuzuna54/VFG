@@ -20,5 +20,8 @@
   "keywords": [],
   "devDependencies": {
     "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.36.0"
   }
 }
