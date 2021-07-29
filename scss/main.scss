@@ -39,8 +39,7 @@ img {
   height: 70px;
   color: #fff;
   text-transform: uppercase;
-  padding-left: 0.5rem;
-  padding-bottom: 0.6rem;
+  vertical-align: middle;
 }
 
 // Main Nav
@@ -320,7 +319,7 @@ img {
   }
 }
 
-// COntanct page
+// Contact page
 #contact {
   // Section A contact
   &-a {
@@ -381,16 +380,18 @@ img {
 .dropdown {
   position: relative;
   display: inline-block;
+  transition: 0.5s;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: rgb(97, 97, 97);
   min-width: 160px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  transition: 0.5s;
 }
 
 .dropdown-content a {
@@ -398,22 +399,21 @@ img {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  transition: display 0.5s;
+  transition: 0.5s;
 }
 
 .dropdown a:hover {
-  background-color: #ddd;
+  background-color: rgb(214, 214, 214);
 }
 
 .show {
   display: block;
-  transition: display 0.5s;
+  transition: 0.5s;
 }
 
 .sticky {
   position: fixed;
   top: 0;
-  //   width: 100%;
 }
 
 // Footer
@@ -446,5 +446,5 @@ img {
   }
 }
 
-// Import Media Querries
+// Import Media Queries
 @import "media";
