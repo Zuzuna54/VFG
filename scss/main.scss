@@ -356,10 +356,10 @@ img {
 }
 
 .dropdown-content {
-    visibility: none;
+    display: none;
     opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
-    display: flex;
+    transition: all 0.5s, linear;
+    // display: flex;
     position: absolute;
     background-color: $dark-color;
     min-width: 160px;
@@ -399,19 +399,25 @@ img {
     background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
-    display: flex;
-    visibility: visible;
-    opacity: 1;
-}
-
+// .dropdown:hover .dropdown-content {
+//     display: flex;
+//     visibility: visible;
+//     opacity: 1;
+// }
 .dropdown:hover .dropbtn {
     background-color: #b8b8b8;
 }
 
 .show {
     display: block;
-    transition: 0.5s;
+}
+
+.drop-show {
+    display: flex;
+}
+
+.drop-vis-show {
+    opacity: 1;
 }
 
 .sticky {
@@ -450,6 +456,8 @@ img {
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
     width: 500vh;
 }
 
