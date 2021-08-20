@@ -473,7 +473,7 @@ img {
         white-space: nowrap;
         div {
             width: 25%;
-            max-width: 40vh;
+            max-width: 27vh;
             height: 28vh;
             display: inline-block;
             padding: 0.5rem;
@@ -482,7 +482,7 @@ img {
             text-align: left;
             img {
                 height: 40%;
-                width: 95%;
+                width: 100%;
             }
         }
         div:hover {
@@ -500,6 +500,42 @@ img {
         background-color: red;
         height: 32vh;
         width: 30vw;
+    }
+}
+
+.hide-nav {
+    opacity: 0;
+}
+
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    div {
+        height: 150px;
+        width: 94vw;
+        background-color: red;
+        // margin: 0.5rem;
+        padding: 0.5rem;
+    }
+    .heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0.5rem;
+        height: 3.5vh;
+        margin: 0.5rem;
+    }
+    .logos {
+        display: flex;
+        justify-content: space-between;
+        margin: none;
+        div {
+            width: 25vh;
+            height: 25vh;
+            background-color: aqua;
+        }
     }
 }
 
