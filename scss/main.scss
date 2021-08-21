@@ -522,14 +522,14 @@ img {
     .heading {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 0.5rem;
         height: 3.5vh;
         // margin: 0.5rem;
     }
     .logos {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin: none;
         padding: none;
         div {
@@ -545,7 +545,18 @@ img {
         .local {
             width: 59vh;
         }
+        .brands {
+            img {
+                padding: 0.1rem;
+            }
+        }
     }
+}
+
+.footer-nav {
+    background-color: $dark-color;
+    height: 60px;
+    width: 140vw;
 }
 
 // Import Media Queries
