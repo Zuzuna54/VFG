@@ -101,7 +101,7 @@ img {
 
 // Header
 #header {
-    // Header Home
+    height: 25vh;
     &-home {
         background: $bg-image no-repeat center right / cover;
         height: 100vh;
@@ -604,6 +604,10 @@ img {
         height: 100%;
         width: 100%;
     }
+}
+
+#main-footer {
+    padding-top: 5vh;
 }
 
 // Import Media Queries
