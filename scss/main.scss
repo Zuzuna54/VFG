@@ -9,7 +9,7 @@
 
 body {
     font-family: "Dosis", sans-serif;
-    line-height: 1.6;
+    line-height: 1.1;
     background: #fff;
 }
 
@@ -68,8 +68,8 @@ img {
         border-bottom: 3px transparent solid;
         padding-bottom: 0.5rem;
         transition: border-color 0.5s;
-        border-top-right-radius: 20%;
-        border-top-left-radius: 20%;
+        // border-top-right-radius: 20%;
+        // border-top-left-radius: 20%;
         &:hover {
             border-color: $main-color;
         }
@@ -362,6 +362,24 @@ img {
 .dropdown {
     position: relative;
     display: inline-block;
+    .targ-a {
+        border: none;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        padding-bottom: 0.5rem;
+        background-color: transparent;
+        transition: background-color 0.5s;
+        padding: 0.5rem;
+        border-top-right-radius: 20%;
+        border-top-left-radius: 20%;
+        &:hover {
+            background-color: transparent;
+        }
+        &.current {
+            background-color: #b8b8b8;
+        }
+    }
 }
 
 .dropdown-content {
